@@ -1,0 +1,17 @@
+footer{
+	clear: "";
+	display: block;
+	background: dimgray;
+	width: 100%;
+	height: auto;
+	padding:1rem;
+	
+
+}
+footer p{
+	font-family: Montserrat;
+	font-size:18px;
+	font-weight: normal;
+	font-style: normal;
+	text-align:center;
+}

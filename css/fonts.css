@@ -1,0 +1,25 @@
+/*Fontovi prezemeni od Google Fonts so kirilichna podrshka*/
+
+
+/*Normalni fontovi (Regular Fonts)*/
+@font-face{
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+@font-face{
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face{
+	font-family: "SourceCodePro";
+	src: url("../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Russone";
+	src: url("../fonts/Russo_One/RussoOne-Regular.ttf");
+}
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}

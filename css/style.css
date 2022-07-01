@@ -1,0 +1,44 @@
+@import "fonts.css";
+/*CSS za body,html elementi*/
+@import "css-importen.css";
+
+/*CSS za testiranje i kuresevi */
+@import "css-testovi-index.css";
+
+/*CSS za top navigacija i responivnost na ista navigacij*/
+@import "css-top-resp-nav.css";
+
+/*CSS za main sekcija*/
+@import "css-index-main-sec.css";
+
+/*CSS zig zag template*/
+@import "css-zig-zag-temp.css";
+
+/*CSS za galerija*/
+@import "css-galerija.css";
+
+/*CSS za konatakt*/
+@import "css-kontakt.css";
+
+/*CSS za footer*/
+@import "css-footer.css";
+a{
+	color: black;
+	font-size: 18px;
+	font-family: Tahoma, Helvatica, serif;
+	text-decoration:none;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

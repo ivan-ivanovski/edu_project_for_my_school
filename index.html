@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EduMK</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+	<div class="topNav" id="resTopNav">
+		<a href="index.html">Почетна</a>
+		<a href="#sec-about">За нас</a>
+		<a href="#sec-contact">Контакт</a>
+		<a href="#sec-gallery">Галерија</a>
+		<a href="./kursevi/kursevi-index.html">Курсеви</a>
+		<a href="./testiranje/index-testovi.html">Тестирај се</a>
+		<a href="javascript:void(0);" class="btn_burger" onclick="resFunction()">X</a>
+	</div>
+
+	</header>
+	<main>
+		<div class="container">
+			<div class="back">
+				<div class="welcome">
+					<h2 class="xmedium-font">Добредојдовте</h2>
+					<h5> Вебсајт за едукација и тестирање</h5>
+				</div>
+			</div>
+			<div class="sec-about" id="sec-about">
+			  <div class="row">
+				<div class="column-66 " >
+				<div class="txtbox">
+				  <h3 class="large-font"><b>За кого?</b></h3>
+				  <p>Овој вебсајт е изработен со цел да им се помогне на сите ученици од средни и основни училиштаа кои сакаат да научат програмирање,
+					да стекнат основи во некој од програмските јазици, да изработуваа самостални апликации, програми, вебстрани и вебсајтови користејќи
+					нови технологии.
+				  </p>
+				</div>
+				</div>
+				<div class="column-33">
+					<img src="./img/img-edu-student.png" width="335" height="471">
+				</div>
+			  </div>
+			</div>
+
+			<div class="sec-info" id="sec-info">
+			  <div class="row">
+				<div class="column-33">
+				  <img src="./img/img-edu2.jpg" alt="App" width="335" height="471">
+				</div>
+				<div class="column-66">
+					<div class="txtbox">
+						<h3 class="large-font"><b>Тестирање</b></h3>
+						<p>Пред се на овој вебсајт ученикот има можност да изврши самостојно тестирање, при што со тоа ќе си го
+						провери своето знаење од повеќе програмски јазици.</p>
+					</div>
+				</div>
+			  </div>
+			</div>
+
+			<div class="sec-gallery" id="sec-gallery">
+				<section class="large-font">
+					<h2 style="color: dimgray;">Галерија</h2>
+				</section>
+				<div class="gallery">
+					<div class="g-row">
+						<div class="g-row-col">
+							<div class="item">
+								<img src="https://picsum.photos/200/100?random=1">
+								<p>1</p>
+							</div>
+							<div class="item">
+								<img src="https://picsum.photos/200/100?random=2">
+								<p>2</p>
+							</div>
+							<div class="item">
+								<img src="https://picsum.photos/200/100?random=3">
+								<p>3</p>
+							</div>
+						</div>
+						<div class="g-row-col">
+							<div class="item">
+								<img src="https://picsum.photos/200/100?random=4">
+								<p>4</p>
+							</div>
+							<div class="item">
+								<img src="https://picsum.photos/200/100?random=5">
+								<p>5</p>
+							</div>
+							<div class="item">
+								<img src="https://picsum.photos/200/100?random=6">
+								<p>6</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sec-contact" id="sec-contact">
+			  <div class="row">
+				<div class="kontakt">
+					<h3 class="large-font"><b>Контакт</b></h3><br>
+					<form method="POST" action="prati_forma.php">
+						<label for="first_name" class="normal-font">Име</label><br>
+						<input name="first_name" type="text" required />
+						<br>
+						<label for="last_name" class="normal-font">Презиме</label><br>
+						<input name="last_name" type="text" required />
+						<br>
+						<label for="email" class="normal-font">Електронска адреса</label><br>
+						<input name="email" type="email" required p/>
+						<br>
+						<label for="message" class="normal-font">Прашања и препораки</label><br>
+						<textarea name="message" cols="30" rows="10"> </textarea>
+						<div class="center">
+							<input type="submit" value="Прати">
+						</div>
+					</form>
+				</div>
+
+			  </div>
+			  <br>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Овој вебсајт е изработен од страна на Иван Ивановски 2021 год</p>
+	</footer>
+
+
+<!--Skripti-->
+<script src="./js/main-top_nav.js"></script>
+</body>
+</html>

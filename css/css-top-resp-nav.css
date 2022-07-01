@@ -1,0 +1,60 @@
+/* T O P H E A D E R A N D N A V I G A T I O N*/
+header{
+	display: block;
+	background: black;
+	color: gray;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+.topNav{
+	overflow:hidden;
+	display: block;
+}
+
+.topNav a{
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 1.25em;
+	  font-family: Montserrat;
+	  font-weight: bold;
+}
+
+.topNav a:hover{
+	background: #E1E2E9;
+	transition: 0.2s all ease-in;
+	cursor: pointer;
+	color: black;
+}
+.topNav a.btn_burger{
+	display:none;
+}
+/*RESPONSIVE*/
+@media screen and (max-width: 600px) {
+  .topNav a:not(:first-child) {display: none;}
+  .topNav a.btn_burger {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topNav.responsive {position: relative;}
+  .topNav.responsive .btn_burger {
+	  color:white;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

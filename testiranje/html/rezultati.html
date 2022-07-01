@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Тестирање Резултати</title>
+    <link rel="stylesheet" href="./stilovi/app.css" />
+    <style type="text/css">
+        #NajdobriRezultatiList {
+          font-family: monospace;
+            font-size: 17px;
+          list-style: none;
+          padding-left: 0;
+          margin-bottom: 4rem;
+        }
+        #NajdobriRezultatiList .kraenRezultat {
+          font-family: monospace;
+            font-size: 20px;
+        }
+        .VisokSkor {
+          font-size: 1.5rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .VisokSkor:hover {
+          transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    
+    
+    
+    <div class="container">
+        <div id="NajdobriRezultati" class="flex-column flex-center">
+            <h3 id="kraenRezultat">Листа на најдобри резултати од тестирањето</h3>
+            <ul id="NajdobriRezultatiList"></ul>
+            <a href="html_test.html" class="btn">Почетна</a>
+        </div>
+    </div>
+    
+    
+    <script src="./scripte/rezultati.js"></script>
+</body>
+</html>

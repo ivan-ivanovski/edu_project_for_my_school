@@ -1,0 +1,97 @@
+.sec-kursevi{
+	padding: 64px;
+	display: block;
+}
+.sec-kursevi .kursevi{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin: auto 1rem;
+	padding: auto;
+}
+.k-row{
+	flex: auto;
+}
+.k-row-col{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: baseline;
+	margin: 1rem auto;
+	align-items: center;
+	text-align: center;
+}
+.k-row-col .item{
+	width: 24.4444%;
+	text-align: center;
+	margin: auto 1rem;
+	background-color: whitesmoke;
+	box-shadow: 0 3px 10px white;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+.item img{
+	
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+	.sec-kursevi{
+		display: block;
+	}
+	.sec-kursevi .kursevi{
+		width: 100%;
+		flex: none;
+		margin: 0 auto;
+		padding: 0 ;
+		display: block;
+	}
+	.kursevi .k-row{
+		clear: both;
+		content: "";
+		display: block;
+		flex: none;
+	}
+	.k-row-col{
+		flex: none;
+		display: block;
+		width: 100%;
+    	margin: auto;
+		padding: auto;	
+	}
+	.k-row-col .item{
+		width: 100%;
+		margin: 10px auto;
+		display: block;
+	}
+}
+
+.sec-kursevi p{
+	display:block;
+	margin: 1rem auto;
+	padding: 1rem;
+	text-align:center;
+	font-size:1rem;
+	font-weight:bold;
+	font-family: Comfortaa;
+	letter-spacing:2px;
+	word-spacing:2px;
+	color: indianred;
+}
+
+.sec-kursevi .item p{
+	color:darkblue;
+	font-size:17px;
+	font-family: Tahoma;
+	margin: 0 auto;
+	padding: 1rem;
+}

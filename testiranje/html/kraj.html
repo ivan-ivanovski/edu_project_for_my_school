@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Тестирање</title>
+    <link rel="stylesheet" href="./stilovi/app.css" />
+</head>
+<body>
+    <div class="container">
+        <div id="kraj" class="flex-column flex-center">
+            <h1 id="kraenSkor"></h1>
+            <form>
+                <input type="text" name="korisnickoIme" id="ime" placeholder="Име" />
+                <button disabled type="submit" id="zacuvajSkorBtn" class="btn" onclick="zacuvajSkor(event)" >Зачувај</button>
+            </form>
+            <a href="./html_test.html" class="btn">Назад на тестот</a>
+            <a href="./test.html" class="btn">Од почеток</a>
+            <a href="../../index.html" class="btn">Врати се на почетна</a>
+        </div>
+    </div>
+    <script src="./scripte/kraj.js"></script>
+</body>
+</html>

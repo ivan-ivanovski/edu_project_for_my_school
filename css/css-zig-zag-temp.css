@@ -1,0 +1,81 @@
+/*ZIG ZAG TEMPLATE*/
+.sec-about {
+	display: block;
+}
+.sec-info {
+  display: block;
+}
+.sec_contact {
+  padding: 64px;
+  margin: 0 auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.txtbox{	
+	display: flex;
+	flex-direction: column;
+	vertical-align: middle;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+	color: #FD9797;
+	margin: 20px auto;
+	font-size: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.xlarge-font {
+  font-size: 64px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+	text-align: justify;
+	margin: 0 auto;
+	color: black;
+	font-size: 18px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+	main, .container{
+		width: 100%;
+		display: block;
+		background: white;
+		border:none;
+		box-shadow: none;
+	}	
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
