@@ -1,1 +1,1 @@
-# edu_project_for_my_school
+# This is my first high-school project 2020/21
